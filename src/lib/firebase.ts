@@ -7,12 +7,13 @@ import type { Readable } from "svelte/motion";
 import { derived } from "svelte/store";
 import { docStore, userStore } from "sveltefire";
 const firebaseConfig = {
-  apiKey: "AIzaSyARBVL5eHA_tNiMlA3SVEabdaxD3FS1YI8",
-  authDomain: "wahh-a2810.firebaseapp.com",
-  projectId: "wahh-a2810",
-  storageBucket: "wahh-a2810.appspot.com",
-  messagingSenderId: "933623751265",
-  appId: "1:933623751265:web:1c4440291d03084b998020"
+  apiKey: "AIzaSyDLH0XQfQqWgyt7aTyUoJDMcoc21QEaikY",
+  authDomain: "beginbiz-195d8.firebaseapp.com",
+  projectId: "beginbiz-195d8",
+  storageBucket: "beginbiz-195d8.appspot.com",
+  messagingSenderId: "654301606786",
+  appId: "1:654301606786:web:a1354b7814d1766928959b",
+  measurementId: "G-CP8HL920VZ"
 };
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
